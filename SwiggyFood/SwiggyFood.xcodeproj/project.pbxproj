@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC366D64351AD26420B55743 /* Pods_SwiggyFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0ABE803893A2DD8A69C22D0 /* Pods_SwiggyFood.framework */; };
+		F70286E2294B71290076CBFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70286E1294B71290076CBFB /* AppDelegate.swift */; };
+		F70286E4294B71290076CBFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70286E3294B71290076CBFB /* SceneDelegate.swift */; };
+		F70286E6294B71290076CBFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70286E5294B71290076CBFB /* ViewController.swift */; };
+		F70286E9294B71290076CBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70286E7294B71290076CBFB /* Main.storyboard */; };
+		F70286EB294B712A0076CBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70286EA294B712A0076CBFB /* Assets.xcassets */; };
+		F70286EE294B712A0076CBFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70286EC294B712A0076CBFB /* LaunchScreen.storyboard */; };
+		F7028720294C1D6C0076CBFB /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F702871F294C1D6C0076CBFB /* HomePageViewController.swift */; };
+		F7028726294C1FAC0076CBFB /* ColorPlatte.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7028725294C1FAC0076CBFB /* ColorPlatte.swift */; };
+		F702876E294C861E0076CBFB /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = F702876D294C861E0076CBFB /* Services.swift */; };
+		F7028770294C8E410076CBFB /* ServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F702876F294C8E410076CBFB /* ServicesManager.swift */; };
+		F7028773294C90190076CBFB /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7028772294C90190076CBFB /* Library.swift */; };
+		F7028778294CA4710076CBFB /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7028777294CA4710076CBFB /* CategoryList.swift */; };
+		F702877A294CA5B60076CBFB /* CategoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7028779294CA5B60076CBFB /* CategoryListViewModel.swift */; };
+		F7441E5B294CC445000967E2 /* ProductListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7441E5A294CC445000967E2 /* ProductListModel.swift */; };
+		F7441E5D294CD45F000967E2 /* ConstantStringFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7441E5C294CD45F000967E2 /* ConstantStringFile.swift */; };
+		F7441E5F294CD67F000967E2 /* ExtensionFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7441E5E294CD67F000967E2 /* ExtensionFiles.swift */; };
+		F7441E62294D804B000967E2 /* ProductListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7441E60294D804B000967E2 /* ProductListCell.swift */; };
+		F7441E63294D804B000967E2 /* ProductListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7441E61294D804B000967E2 /* ProductListCell.xib */; };
+		F74D7289294DADF70086B24C /* CategoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D7287294DADF70086B24C /* CategoryListCell.swift */; };
+		F74D728C294DD6B40086B24C /* CategoryListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74D728B294DD6B40086B24C /* CategoryListCell.xib */; };
+		F74D728E294DF4970086B24C /* ReadmeFile.md in Resources */ = {isa = PBXBuildFile; fileRef = F74D728D294DF4970086B24C /* ReadmeFile.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C092CA45B5C82FE7254256D /* Pods-SwiggyFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiggyFood.release.xcconfig"; path = "Target Support Files/Pods-SwiggyFood/Pods-SwiggyFood.release.xcconfig"; sourceTree = "<group>"; };
+		703D61D1BB9661B5D45BFF4B /* Pods-SwiggyFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiggyFood.debug.xcconfig"; path = "Target Support Files/Pods-SwiggyFood/Pods-SwiggyFood.debug.xcconfig"; sourceTree = "<group>"; };
+		B0ABE803893A2DD8A69C22D0 /* Pods_SwiggyFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiggyFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70286DE294B71290076CBFB /* SwiggyFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiggyFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70286E1294B71290076CBFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F70286E3294B71290076CBFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F70286E5294B71290076CBFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F70286E8294B71290076CBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F70286EA294B712A0076CBFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F70286ED294B712A0076CBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F70286EF294B712A0076CBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F702871F294C1D6C0076CBFB /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		F7028725294C1FAC0076CBFB /* ColorPlatte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ColorPlatte.swift; path = SwiggyFood/Controllers/HomePage/Controller/ColorPlatte.swift; sourceTree = SOURCE_ROOT; };
+		F702876D294C861E0076CBFB /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		F702876F294C8E410076CBFB /* ServicesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesManager.swift; sourceTree = "<group>"; };
+		F7028772294C90190076CBFB /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		F7028777294CA4710076CBFB /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		F7028779294CA5B60076CBFB /* CategoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewModel.swift; sourceTree = "<group>"; };
+		F7441E5A294CC445000967E2 /* ProductListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListModel.swift; sourceTree = "<group>"; };
+		F7441E5C294CD45F000967E2 /* ConstantStringFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantStringFile.swift; sourceTree = "<group>"; };
+		F7441E5E294CD67F000967E2 /* ExtensionFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFiles.swift; sourceTree = "<group>"; };
+		F7441E60294D804B000967E2 /* ProductListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListCell.swift; sourceTree = "<group>"; };
+		F7441E61294D804B000967E2 /* ProductListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListCell.xib; sourceTree = "<group>"; };
+		F74D7287294DADF70086B24C /* CategoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListCell.swift; sourceTree = "<group>"; };
+		F74D728B294DD6B40086B24C /* CategoryListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryListCell.xib; sourceTree = "<group>"; };
+		F74D728D294DF4970086B24C /* ReadmeFile.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadmeFile.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F70286DB294B71280076CBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC366D64351AD26420B55743 /* Pods_SwiggyFood.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E71C7A366007481774F861D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0ABE803893A2DD8A69C22D0 /* Pods_SwiggyFood.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C44F0813C24FFFF6630B19B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				703D61D1BB9661B5D45BFF4B /* Pods-SwiggyFood.debug.xcconfig */,
+				3C092CA45B5C82FE7254256D /* Pods-SwiggyFood.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F70286D5294B71280076CBFB = {
+			isa = PBXGroup;
+			children = (
+				F74D728D294DF4970086B24C /* ReadmeFile.md */,
+				F70286E0294B71290076CBFB /* SwiggyFood */,
+				F70286DF294B71290076CBFB /* Products */,
+				9C44F0813C24FFFF6630B19B /* Pods */,
+				8E71C7A366007481774F861D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F70286DF294B71290076CBFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F70286DE294B71290076CBFB /* SwiggyFood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F70286E0294B71290076CBFB /* SwiggyFood */ = {
+			isa = PBXGroup;
+			children = (
+				F7028771294C8FFC0076CBFB /* SupportingFiles */,
+				F702876C294C86060076CBFB /* NetworkManager */,
+				F7028723294C1F850076CBFB /* Sources */,
+				F702871C294C1C940076CBFB /* Controllers */,
+				F70286E1294B71290076CBFB /* AppDelegate.swift */,
+				F70286E3294B71290076CBFB /* SceneDelegate.swift */,
+				F70286E5294B71290076CBFB /* ViewController.swift */,
+				F70286E7294B71290076CBFB /* Main.storyboard */,
+				F70286EA294B712A0076CBFB /* Assets.xcassets */,
+				F70286EC294B712A0076CBFB /* LaunchScreen.storyboard */,
+				F70286EF294B712A0076CBFB /* Info.plist */,
+			);
+			path = SwiggyFood;
+			sourceTree = "<group>";
+		};
+		F702871C294C1C940076CBFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F702871D294C1D200076CBFB /* HomePage */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F702871D294C1D200076CBFB /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				F7028774294CA35D0076CBFB /* Model */,
+				F7028727294C388D0076CBFB /* ViewModel */,
+				F702871E294C1D3B0076CBFB /* Controller */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		F702871E294C1D3B0076CBFB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F702871F294C1D6C0076CBFB /* HomePageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F7028723294C1F850076CBFB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F7028724294C1F910076CBFB /* Colors */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F7028724294C1F910076CBFB /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				F7028725294C1FAC0076CBFB /* ColorPlatte.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		F7028727294C388D0076CBFB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F74D728B294DD6B40086B24C /* CategoryListCell.xib */,
+				F7028779294CA5B60076CBFB /* CategoryListViewModel.swift */,
+				F7441E60294D804B000967E2 /* ProductListCell.swift */,
+				F7441E61294D804B000967E2 /* ProductListCell.xib */,
+				F74D7287294DADF70086B24C /* CategoryListCell.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F702876C294C86060076CBFB /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				F702876D294C861E0076CBFB /* Services.swift */,
+				F702876F294C8E410076CBFB /* ServicesManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		F7028771294C8FFC0076CBFB /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F7028772294C90190076CBFB /* Library.swift */,
+				F7441E5C294CD45F000967E2 /* ConstantStringFile.swift */,
+				F7441E5E294CD67F000967E2 /* ExtensionFiles.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F7028774294CA35D0076CBFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7028777294CA4710076CBFB /* CategoryList.swift */,
+				F7441E5A294CC445000967E2 /* ProductListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F70286DD294B71280076CBFB /* SwiggyFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70286F2294B712A0076CBFB /* Build configuration list for PBXNativeTarget "SwiggyFood" */;
+			buildPhases = (
+				36D39533F7D050F3F622A2A2 /* [CP] Check Pods Manifest.lock */,
+				F70286DA294B71280076CBFB /* Sources */,
+				F70286DB294B71280076CBFB /* Frameworks */,
+				F70286DC294B71280076CBFB /* Resources */,
+				A2F240D144A35C84EFE999A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiggyFood;
+			productName = SwiggyFood;
+			productReference = F70286DE294B71290076CBFB /* SwiggyFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F70286D6294B71280076CBFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F70286DD294B71280076CBFB = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F70286D9294B71280076CBFB /* Build configuration list for PBXProject "SwiggyFood" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F70286D5294B71280076CBFB;
+			productRefGroup = F70286DF294B71290076CBFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F70286DD294B71280076CBFB /* SwiggyFood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F70286DC294B71280076CBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74D728E294DF4970086B24C /* ReadmeFile.md in Resources */,
+				F70286EE294B712A0076CBFB /* LaunchScreen.storyboard in Resources */,
+				F74D728C294DD6B40086B24C /* CategoryListCell.xib in Resources */,
+				F7441E63294D804B000967E2 /* ProductListCell.xib in Resources */,
+				F70286EB294B712A0076CBFB /* Assets.xcassets in Resources */,
+				F70286E9294B71290076CBFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36D39533F7D050F3F622A2A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiggyFood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2F240D144A35C84EFE999A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiggyFood/Pods-SwiggyFood-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiggyFood/Pods-SwiggyFood-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiggyFood/Pods-SwiggyFood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F70286DA294B71280076CBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7441E5B294CC445000967E2 /* ProductListModel.swift in Sources */,
+				F7028720294C1D6C0076CBFB /* HomePageViewController.swift in Sources */,
+				F70286E6294B71290076CBFB /* ViewController.swift in Sources */,
+				F70286E2294B71290076CBFB /* AppDelegate.swift in Sources */,
+				F7441E5D294CD45F000967E2 /* ConstantStringFile.swift in Sources */,
+				F702876E294C861E0076CBFB /* Services.swift in Sources */,
+				F702877A294CA5B60076CBFB /* CategoryListViewModel.swift in Sources */,
+				F70286E4294B71290076CBFB /* SceneDelegate.swift in Sources */,
+				F7028726294C1FAC0076CBFB /* ColorPlatte.swift in Sources */,
+				F74D7289294DADF70086B24C /* CategoryListCell.swift in Sources */,
+				F7441E62294D804B000967E2 /* ProductListCell.swift in Sources */,
+				F7441E5F294CD67F000967E2 /* ExtensionFiles.swift in Sources */,
+				F7028770294C8E410076CBFB /* ServicesManager.swift in Sources */,
+				F7028773294C90190076CBFB /* Library.swift in Sources */,
+				F7028778294CA4710076CBFB /* CategoryList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F70286E7294B71290076CBFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70286E8294B71290076CBFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F70286EC294B712A0076CBFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70286ED294B712A0076CBFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F70286F0294B712A0076CBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F70286F1294B712A0076CBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F70286F3294B712A0076CBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 703D61D1BB9661B5D45BFF4B /* Pods-SwiggyFood.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NWT9ZV6C42;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiggyFood/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = datetime.SwiggyFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F70286F4294B712A0076CBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C092CA45B5C82FE7254256D /* Pods-SwiggyFood.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NWT9ZV6C42;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiggyFood/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = datetime.SwiggyFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F70286D9294B71280076CBFB /* Build configuration list for PBXProject "SwiggyFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70286F0294B712A0076CBFB /* Debug */,
+				F70286F1294B712A0076CBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70286F2294B712A0076CBFB /* Build configuration list for PBXNativeTarget "SwiggyFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70286F3294B712A0076CBFB /* Debug */,
+				F70286F4294B712A0076CBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F70286D6294B71280076CBFB /* Project object */;
+}

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "pablo-merchan-montes-hyIE90CN6b0-unsplash.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "pablo-merchan-montes-hyIE90CN6b0-unsplash 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "pablo-merchan-montes-hyIE90CN6b0-unsplash 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
